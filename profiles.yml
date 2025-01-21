@@ -8,7 +8,7 @@ dbt_projet:
       database: [my_dbt_db] # optional, should be same as schema
       schema: [schema]
       username: [root]
-      password: [MysqL31!!]
+      password: [*****]
       driver: MySQL ODBC 8.0 ANSI Driver
     prod:
       type: mysql
@@ -17,5 +17,5 @@ dbt_projet:
       database: [my_dbt_db] # optional, should be same as schema
       schema: [schema]
       username: [root]
-      password: [MysqL31!!]
+      password: [****]
       driver: MySQL ODBC 8.0 ANSI Driver
